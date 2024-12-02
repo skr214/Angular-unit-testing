@@ -17,7 +17,7 @@ export class CommentComponent implements OnInit {
   constructor(private commentsService:CommentsService){}
 
   ngOnInit(): void {
-   this.loadComments()
+   this.loadComments();
   }
 
   handleChange(e:Event){
